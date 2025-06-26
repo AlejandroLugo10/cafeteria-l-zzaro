@@ -1,0 +1,14 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafetería Lazzaro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Bienvenido a Cafetería Lazzaro</h1>
+    <p>Tu rincón de café en la ciudad. 🌟</p>
+    <a href="{{ url_for('login') }}">Iniciar Sesión</a> |
+    <a href="{{ url_for('register') }}">Registrarse</a>
+</body>
+</html>

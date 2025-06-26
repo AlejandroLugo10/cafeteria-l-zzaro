@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fidelización - Lazzaro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Sistema de Fidelización</h2>
+    <p>Tienes <strong>{{ puntos }}</strong> puntos acumulados.</p>
+    <p>¡Sigue comprando y gana cafés gratis! ☕</p>
+    <a href="{{ url_for('menu') }}">Volver al menú</a>
+</body>
+</html>
